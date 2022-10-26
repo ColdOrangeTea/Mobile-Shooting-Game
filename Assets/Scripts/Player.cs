@@ -66,6 +66,10 @@ public class Player : MonoBehaviour
         // 停兩秒
         yield return new WaitForSeconds(0.5f);        
     }
+    foreach (GameObject enemy in collection)
+    {
+        
+    }
 
 }
     
