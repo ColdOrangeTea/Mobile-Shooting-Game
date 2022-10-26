@@ -4,15 +4,12 @@ using UnityEngine;
 
 public class NearMan : MonoBehaviour
 {
-    // public GameObject a;
-    // public GameObject b;
-    // private float c;
 
     public Transform target;
     
     void Start()
     {
-    //    c = (b.transform.position - a.transform.position).sqrMagnitude;
+
     }
 
     void Update()
@@ -38,19 +35,5 @@ public class NearMan : MonoBehaviour
         //漸漸改變位置
         transform.position = Vector3.Lerp(transform.position, targetPos, 0.05f);
 
-        // if (dist < 8)
-        // {
-        //     transform.localScale = new Vector3(2, 2, 2);
-        // }
-        // else
-        // {
-        //     transform.localScale = new Vector3(1, 1, 1);
-        // }
-
-        
-        // if (c > (c / 2))
-        // {
-        //     this.gameObject.transform.(2, 2, 2);
-        // }
     }
 }
